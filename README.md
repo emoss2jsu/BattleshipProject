@@ -23,10 +23,6 @@ Design Decisions
 This battleship project uses Grids and Cells to keep track of the game. A Grid class is created to build and display the board, keep track of your board (which is referred to as primary grid for the both players), and keep track of the opponents board (which will show as tracking grid for each player). The Grid class is designed in way to allow players to play with more of fewer ships if they desire, but to do so they will have to edit the ship_type and ship_size vectors in main.cpp. Characters (i.e. 'A' or 'B') are used to represent the ships in the grid to keep things simple and because this is a simpler version of the game the battleships are set randomly within the grid, instead of allowing players to place their ships anywhere. In the project a cell struct is created to use information from input. Cells are used to get coordinates from users that should be within range of the grid since the input will come as a char and integer that represents the col and row.
 
 
-Installation
---------------------------------
-Download or clone this repository to a folder of your choice.
-All you need to play the game is the Battleship application (it is in the folder) and someone to play it with, however if you would like to make changes you will need at least a code editor or a C++ IDE to edit, compile, and run the code.
 
 Configuration
 --------------------------------
