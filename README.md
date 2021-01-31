@@ -42,6 +42,4 @@ ship_size = { 5, 4, 3, 2, 2, 4 };
 
 Authors
 --------------------------------
-Framework design by Prof. Jay Snellen.
-
-Worked on and edited by Earl Moss.
+Edited by Earl Moss.
